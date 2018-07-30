@@ -1,8 +1,12 @@
 # clj-template
 
-A clj template for FIXME.
+A clj template for a full stack projct using clojure and clojurescript.
 
 ## Usage
+
+```shell
+clj -A:new loaded-system yourname/appname
+```
 
 FIXME
 
