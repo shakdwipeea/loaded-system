@@ -7,13 +7,13 @@
 (require '[boot-tools-deps.core :refer [deps]])
 
 (def project 'loaded-system/clj-template)
-(def version "0.0.1")
+(def version "0.0.2")
 
 (task-options!
  pom {:project     project
       :version     version
       :description "🚀 Loaded Systems 🚀"
-      :scm         {:url "https://github.com/entranceplus/snow"}
+      :scm         {:url "https://github.com/shakdwipeea/loaded-systems"}
       :license     {"Eclipse Public License"
                     "http://www.eclipse.org/legal/epl-v10.html"}})
 
